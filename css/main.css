@@ -76,4 +76,13 @@ ul {
 .nav .nav__link {
   color: red;
   text-decoration: none;
+  
+}
+.nav .nav__link i{
+  padding-right: 5px;
+  
+}
+
+ul{
+  padding: 0;
 }
