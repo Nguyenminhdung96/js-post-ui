@@ -1,4 +1,4 @@
-import postApi from "//api/postAPI"
+import postApi from ".//api/postAPI"
 import { initPagination,handleSeach,renderPostList,renderPagination } from './utils/index'
 import dayjs from "dayjs"
 import relativeTime from 'dayjs/plugin/relativeTime'
