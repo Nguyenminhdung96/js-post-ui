@@ -22,6 +22,15 @@ export function createElement(post) {
     setTextContent(elementClone,'[data-id="author"]',post.author)
     setTextContent(elementClone,'[data-id="timeSpan"]',`-${dayjs(post.createdAt).fromNow()}`)
  
+    //attach events
+    //go to detail when click div.post-item
+    const divElement = elementClone.firstElementChild
+    if(divElement){
+       divElement.addEventListener('click',()=>{
+        window.location.assign(`/post-detail.html?id=${post.id}`)
+       })
+    }
+
  
     return elementClone
  
