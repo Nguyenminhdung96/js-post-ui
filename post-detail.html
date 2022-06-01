@@ -97,38 +97,46 @@
                 Praesentium ea aspernatur vero deserunt.
               </p>
 
-              <img
+              <div class="ratio ratio-16x9 bg-dark">
+                <img
+                data-ligthBox="ligthBox"
+                 class="post-image"
+                 src="https://picsum.photos/id/234/1368/800"
+                 alt="Picsum photos"
+               />
+              </div>
+             
+
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci suscipit inventore hic tenetur, dolor iusto dolorum
+                rem, non error, saepe quia dignissimos quas ducimus aliquid.
+                Praesentium ea aspernatur vero deserunt.
+              </p>
+
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci suscipit inventore hic tenetur, dolor iusto dolorum
+                rem, non error, saepe quia dignissimos quas ducimus aliquid.
+                Praesentium ea aspernatur vero deserunt.
+              </p>
+
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci suscipit inventore hic tenetur, dolor iusto dolorum
+                rem, non error, saepe quia dignissimos quas ducimus aliquid.
+                Praesentium ea aspernatur vero deserunt.
+              </p>
+              
+              <div class="ratio ratio-16x9 bg-dark">
+                <img
+                data-ligthBox="ligthBox"
                 class="post-image"
-                src="https://picsum.photos/1368/800"
+                src="https://picsum.photos/id/1000/1368/1000"
                 alt="Picsum photos"
               />
-
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci suscipit inventore hic tenetur, dolor iusto dolorum
-                rem, non error, saepe quia dignissimos quas ducimus aliquid.
-                Praesentium ea aspernatur vero deserunt.
-              </p>
-
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci suscipit inventore hic tenetur, dolor iusto dolorum
-                rem, non error, saepe quia dignissimos quas ducimus aliquid.
-                Praesentium ea aspernatur vero deserunt.
-              </p>
-
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci suscipit inventore hic tenetur, dolor iusto dolorum
-                rem, non error, saepe quia dignissimos quas ducimus aliquid.
-                Praesentium ea aspernatur vero deserunt.
-              </p>
-
-              <img
-                class="post-image"
-                src="https://picsum.photos/1368/1000"
-                alt="Picsum photos"
-              />
+              </div>
+              
 
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -146,8 +154,29 @@
       <small>Created by Po with <i class="fas fa-heart"></i></small>
     </footer>
 
+    <div id="lightBox" class="modal   " tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+         
+          <div class="modal-body">
+           <img data-id="imgLightBox" src="" alt="" width="100%" height="400px">
+          </div>
+          <div class="modal-footer">
+            <button data-id="prevLightBox" type="button" class="btn btn-secondary" data-dismiss="modal">&laquo; Prev</button>
+            <button data-id="nextLightBox" type="button" class="btn btn-primary">Next &raquo;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Scripts should be placed here to prevent blocking render UI -->
- 
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+     crossorigin="anonymous"></script>
+
+
+    <script  type="module" src="./js/post-detail.js"></script>
   </body>
 </html>
