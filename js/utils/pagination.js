@@ -41,7 +41,7 @@ export function handleNext(e,onChange){
     const ulPagination =  document.getElementById('postsPagination')
     const page = Number.parseInt(ulPagination.dataset.page)
     const totalRows = Number.parseInt(ulPagination.dataset.totalPages)
-    console.log(page);
+    // console.log(page);
     if(page >= totalRows){
         return
     }else{
